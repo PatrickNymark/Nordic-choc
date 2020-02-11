@@ -1,7 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const logger = require('morgan');
-const errorHandler = require('./helpers/error-handler');
+const errorHandler = require('./helpers/error-handler')
+const path = require('path');
 
 // initialize
 const app = express();
@@ -11,8 +12,6 @@ require('dotenv').config();
 
 // logger
 app.use(logger('dev'));
-
-console.log(process.env.MONGO_URI)
 
 // mongodb config
 mongoose
@@ -26,9 +25,20 @@ app.use(express.json());
 
 // routes
 app.use('/api/auth', require('./controllers/auth.controller'));
+app.use('/api/pieces', require('./controllers/piece.controller'));
 
 // global error handler
 app.use(errorHandler);
+
+// Server static assets if in production
+if (process.env.NODE_ENV === 'production') {
+  // Set static folder
+  app.use(express.static('../client/build'));
+
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname,  'client', 'build', 'index.html'));
+  });
+}
 
 const port = 5000 || process.env.PORT;
 
