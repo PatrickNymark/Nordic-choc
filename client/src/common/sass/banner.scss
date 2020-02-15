@@ -1,0 +1,16 @@
+.banner-wrapper {
+    height: 400px;
+    position: relative;
+
+    .banner-image {
+        max-width: 200px;
+        position: absolute;
+        top: 50%;
+        right: 150px;
+        transform: translateY(-50%);
+
+        img {
+            max-width: 100%;
+        }
+    }
+}

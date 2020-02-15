@@ -1,0 +1,116 @@
+.about-header {
+    height: 250px;
+    position: relative;
+
+    .about-logo {
+        max-width: 200px;
+        position: absolute;
+        top: 100px;
+        right: 100px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .about-menu {
+        position: absolute;
+        top: 80px;
+        left: 100px;
+    }
+
+    span {
+        background: #000;
+    }
+
+    .menu-content {
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    }
+}
+
+.about-banner {
+    height: 400px;
+    background: #000;
+    background: url('../../images/jb_wplusb7033.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-content {
+    display: flex;
+    flex: 1;
+    padding: 92.20px 100px;
+
+    h1 {
+        font-weight: normal;
+    }
+
+    .content-info {
+        flex-basis: 50%;
+        text-align: center;
+    }
+
+    .content-pieces {
+        flex-basis: 50%;
+
+        p {
+            font-size: 12px;
+            line-height: 1.6rem;
+        }
+
+        ul {
+            list-style-type: none;
+
+            a {
+                color: #000;
+                text-decoration: none3;
+
+                &:visited {
+                    color: #000
+                }
+            }
+
+            li {
+                padding-top: 5px;
+                font-size: 12px;
+            }
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .about-header {
+       .about-logo {
+           top: 100px;
+           right: 60px;
+       }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .about-header {
+        min-height: 266px;
+        .about-logo {
+            top: 20px;
+            right: 20px;
+            max-width: 100px;
+        }
+
+        .about-menu {
+            top: -14px;
+            left: 10px;
+        }
+    }
+
+    .about-content {
+        .content-info {
+            flex-basis: 100%;
+        }
+
+        .content-pieces {
+            flex-basis: 100%;
+        }
+    }
+}

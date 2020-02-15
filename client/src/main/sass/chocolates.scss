@@ -1,0 +1,29 @@
+.chocolates-banner {
+    height: 400px;
+    background: #000;
+    background: url('../../images/chocolates-banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.chocolates-content {
+    padding: 92.20px 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .chocolate-title {
+        text-align: center;
+    }
+
+    .chocolate-content {
+        p {
+            font-size: 12px;
+            line-height: 1.6rem;
+        }
+    }
+
+    .col {
+        flex: 50%;
+    }
+}

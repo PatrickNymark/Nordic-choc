@@ -81,10 +81,17 @@
         
     }
 
+    ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+
+    li {
+        padding: 6px 0px;
+    }
+
     a {
         text-decoration: none;
-        display: block;
-        padding: 5px 0px;
         color: #000;
     }
 
@@ -97,7 +104,7 @@
 
 @media only screen and (max-width: 414px) {
     .menu-content {
-        min-width: 414px;
+        min-width: 100vw;
         transform: translate(-500px, 0);
     }
 }

@@ -26,6 +26,7 @@ app.use(express.json());
 // routes
 app.use('/api/auth', require('./controllers/auth.controller'));
 app.use('/api/pieces', require('./controllers/piece.controller'));
+app.use('/api/awards', require('./controllers/award.controller'));
 
 // global error handler
 app.use(errorHandler);

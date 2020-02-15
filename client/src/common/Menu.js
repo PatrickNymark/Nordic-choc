@@ -53,11 +53,13 @@ class Menu extends PureComponent {
                     <span className={this.state.active ? 'menu-checked' : ''}></span>
                 </div>
                 <div className={this.state.active ? "menu-content show" : 'menu-content'}>
-                        <Link to="/about">About</Link>
-                        <Link to="/pieces">Pieces</Link>
-                        <p>Partnerships</p>
-                        <p>Awards</p>
-                        <p>More Stuff</p>
+                    <ul>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/chocolate">Chocolates</Link></li>
+                        <li><Link to="/pieces">Pieces</Link></li>
+                        <li><Link to="/partnerships">Patnerships</Link></li>
+                        <li><Link to="/awards">Awards</Link></li>
+                    </ul>
                 </div> 
                 
             </React.Fragment>
