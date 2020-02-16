@@ -107,7 +107,7 @@
 @media only screen and (max-width: 414px) {
     .menu-content {
         &.show {
-            
+            width: 100%;
         }
         transform: translate(-100%, 0);
     }
