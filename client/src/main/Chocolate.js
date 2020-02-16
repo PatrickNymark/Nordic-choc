@@ -1,6 +1,9 @@
 import React, { PureComponent } from 'react'
 import Header from '../common/Header'
 import './sass/chocolates.scss';
+import Banner from '../common/Banner';
+import ChocolateBanner from '../images/chocolates-banner.jpg'
+
 
 class Chocolate extends PureComponent {
     constructor(props) {
@@ -15,7 +18,7 @@ class Chocolate extends PureComponent {
         return (
             <div>
                 <Header />
-                <div className="chocolates-banner"></div>
+                <Banner background={ChocolateBanner} positionTop="50%" positionLeft="50%" />
                 <div className="chocolates-content">
                     <div className="chocolate-title col">
                         <h1>The Chocolate</h1>

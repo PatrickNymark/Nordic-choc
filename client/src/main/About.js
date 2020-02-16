@@ -4,6 +4,8 @@ import Logo from '../images/logo-dark.png'
 import { Link } from 'react-router-dom';
 import './sass/about.scss'
 import Header from '../common/Header';
+import Banner from '../common/Banner';
+import AboutBanner from '../images/jb_wplusb7033.png';
 
 class About extends PureComponent {
     constructor(props) {
@@ -18,7 +20,7 @@ class About extends PureComponent {
         return (
             <div>
                 <Header />
-                <div className="about-banner"></div>
+                <Banner background={AboutBanner} positionTop="50%" positionLeft="50%" />
                 <div className="about-content">
                     <div className="content-info">
                         <h1>About</h1>

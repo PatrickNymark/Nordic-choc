@@ -1,9 +1,42 @@
 .home-wrapper { 
     .home-background {
-        background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('../../images/all.jpg');
+        //background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/all.jpg');
+        
+        background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url('../../images/all.jpg');
         background-size:cover;
         background-position: 50% 50%;
         height: 100vh;
+    }
+
+    .home-headline {
+        position: absolute;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 150px;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+
+        h1 {
+            text-align: left;
+        }
+    }
+
+    .home-awards {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        padding-top: 200px;
+
+        .home-award {
+            width: 200px; 
+            img {
+                max-width: 100%;
+            }
+        }
     }
 
     .home-header {
@@ -63,6 +96,18 @@
                 position: absolute;
                 top: -14px;
                 left: 10px;
+            }
+        }
+
+        .home-headline {
+            top: 80%;
+        }
+
+        .home-awards {
+            top: 40%;
+            
+            .home-award {
+                width: 100px;
             }
         }
     }

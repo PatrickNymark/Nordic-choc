@@ -3,6 +3,8 @@ import Header from '../common/Header'
 import Frederiksberg from '../images/frederiksberg-kirsebærvin.png';
 import Holm from '../images/friis-holm.png';
 import './sass/partnerships.scss'
+import Banner from '../common/Banner';
+import PartnerBanner from '../images/partnerships-banner.jpg';
 
 class Partnerships extends PureComponent {
     constructor(props) {
@@ -17,15 +19,20 @@ class Partnerships extends PureComponent {
         return (
             <div>
                 <Header />
-                <div className="partnerships-banner"></div>
+                <Banner background={PartnerBanner} positionTop="50%" positionLeft="50%" />
                 <div className="partnerships-wrapper">
                         <div className="partnerships-title col">
                             <h1>Partnerships</h1>
                         </div>
                         <div className="partnerships-content col">
-                            <p>Quisque id lacus nisl. Mauris et posuere erat. Aenean et sodales elit. Vivamus eget libero ornare, maximus lacus sit amet, cursus neque. Phasellus vel urna eget diam bibendum dignissim sed quis ante. Fusce maximus libero vel mi imperdiet, ornare convallis eros ornare. Pellentesque molestie risus at commodo volutpat. Proin pellentesque risus et leo mollis volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                            <p>Quisque id lacus nisl. Mauris et posuere erat. Aenean et sodales elit. Vivamus eget libero ornare, maximus lacus sit amet, cursus neque. Phasellus vel urna eget diam bibendum dignissim sed quis ante. Fusce maximus libero vel mi imperdiet, ornare convallis eros ornare. Pellentesque molestie risus at commodo volutpat. Proin pellentesque risus et leo mollis volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                            </div>
+                            <p>Ingredients are acquired from trusted partners with the same mindset when it comes to quality in produce: World class
+                            chocolate from Friis-Holm, unique salts from Icelandic Saltwerk; soft, sweet, organic birch sap from Voss Distilery in Iceland;
+                            refined cherry juice from Frederiksdal Kirsebærvin, coldbrewed coffee from Ayoola and the purest, smooth water from
+                            esteemed gourmet water supplier Inland Ice.
+                            Collaboration between producers is vital to producing high quality end products. We take great care to ensure that we only
+                            work with the best – the innovative seekers of perfection – who share our values and beliefs regarding quality, fair trade and
+                            sustainability</p>    
+                        </div>
                         <div className="partnerships-logos col">
                             <div className="logos">
                                 <div className="logo-wrapper"><img src={Holm} /></div>

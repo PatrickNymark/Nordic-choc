@@ -13,3 +13,46 @@
     }
     
 }
+
+.awards-content-wrapper {
+    position: relative;
+
+    .awards-content {
+        padding: 35px 50px;
+
+        .awards-content-title {
+            text-align: center;
+
+            h4 {
+                font-size: 1.23em;
+                font-weight: bolder;
+            }
+        }
+
+        .awards-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            min-height: 150px;
+            justify-content: center;
+
+            .award-wrapper {
+                width: 12.5%;
+                position: relative;
+
+                .award-img {
+                    max-width: 200px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+
+                    img {
+                        max-width: 100%;
+                
+                    }
+                }
+                
+            }
+        }
+    }
+}

@@ -46,8 +46,8 @@ class Menu extends PureComponent {
     render() {
         return (
             <React.Fragment>
-                <div className="menu-toggle" onChange={this.onChange}>
-                    <input type="checkbox" />
+                <div className="menu-toggle" >
+                    <input type="checkbox" onChange={this.onChange} value={this.state.active} />
                     <span className={this.state.active ? 'menu-checked' : ''}></span>
                     <span className={this.state.active ? 'menu-checked' : ''}></span>
                     <span className={this.state.active ? 'menu-checked' : ''}></span>

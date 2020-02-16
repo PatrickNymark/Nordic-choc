@@ -3,6 +3,7 @@
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
+    cursor: pointer;
 
     input {
         display: block;
@@ -13,7 +14,7 @@
         left: -5px;
         cursor: pointer;
         opacity: 0; /* hide this */
-        z-index: 2; /* and place it over the hamburger */
+        z-index: 3; /* and place it over the hamburger */
         -webkit-touch-callout: none;
 
         &:checked ~ span {
@@ -41,7 +42,7 @@
         position: relative;
         background: #fff;
         border-radius: 3px;
-        z-index: 1;
+        z-index: 2;
         transform-origin: 4px 0px;
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                     background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -73,11 +74,12 @@
     padding-left: 19px;
     transform: translate(-350px, 0);
     transition: transform 0.5s ease-in, box-shadow 0.5s ease-in;
+    z-index: 1;
 
     &.show {
+        display: block;
         transform: translate(0%, 0%);
         box-shadow: 0 14px 28px rgba(0,0,0,0.80), 0 10px 10px rgba(0,0,0,0.80);
-        // opacity: 1;
         
     }
 
@@ -104,8 +106,10 @@
 
 @media only screen and (max-width: 414px) {
     .menu-content {
-        min-width: 100vw;
-        transform: translate(-500px, 0);
+        &.show {
+            min-width: 100vw;
+        }
+        transform: translate(-100%, 0);
     }
 }
 
