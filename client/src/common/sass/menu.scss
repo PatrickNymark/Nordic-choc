@@ -75,7 +75,7 @@
     transform: translate(-350px, 0);
     transition: transform 0.5s ease-in, box-shadow 0.5s ease-in;
     z-index: 1;
-
+    
     &.show {
         display: block;
         transform: translate(0%, 0%);
@@ -106,9 +106,7 @@
 
 @media only screen and (max-width: 414px) {
     .menu-content {
-        &.show {
-            width: 100%;
-        }
+        width: 100%;
         transform: translate(-100%, 0);
     }
 }
