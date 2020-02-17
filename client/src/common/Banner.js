@@ -10,8 +10,10 @@ function Banner({ background, image, positionTop, positionLeft }) {
     return (
         <div style={styles} className="banner-wrapper">
             {image && 
-                <div className="banner-image">
-                    <img src={image} />
+                <div className="banner-image-wrapper">
+                    <div className="banner-image">
+                        <img src={image} />
+                    </div>
                 </div>
             }
         </div>
