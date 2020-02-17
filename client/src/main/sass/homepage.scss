@@ -59,8 +59,102 @@
        }
     }
 
+    .break {
+        min-height: 200px;
+    }
+
     .home-content {
-        min-height: 500px;
+        min-height: 800px;
+        position: relative;
+
+        img {
+            max-width: 50px;
+        }
+
+        .landing-content-banner {
+            position: relative;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            overflow: hidden;
+            width: 1500px;
+
+            .landing-banner {
+                min-width: 100%;
+            }
+        }
+
+
+        .landing-wrapper {
+            position: relative;
+            text-align: center; 
+            .landing-image {
+                max-width: 300px;
+                position: absolute;
+                top: 0;
+                left: 250px;
+            }
+
+            .landing-image-bg {
+                position: absolute;
+                max-width: 400px;
+                top: -50px;
+                left: 200px;
+                z-index: -1;
+                //max-height: 500px;
+            }
+
+            .landing-content {
+                transform: translateX(100px, 55px);
+
+                h1 {
+                    font-size: 40px;
+                }
+
+                h2 {
+                    font-size: 15px;
+                    transform: translate(-222px, 8px);
+                }
+
+                p {
+                    font-size: 12px;
+                    padding-top: 30px;
+                    line-height: 1.3rem;
+                    max-width: 600px;
+                    text-align: left;
+                    transform: translateX(795px);
+                }
+            }
+
+            .landing-image-collage {
+                padding-top: 150px;
+
+                .collage-overlay {
+                    background: rbg(255, 255, 255, 0.2)
+                }
+
+                img {
+                    max-width: 250px;
+                    z-index: -1;
+                    padding: 10px;
+                }
+            }
+        }
+
+        // .home-content-wrapper {
+            // position: absolute;
+            // top: 50px;
+            // left: 200px;
+           
+
+            .home-content-bg {
+                min-height: 632px;
+                //background: url('../../images/landing-decoration-banner.svg');
+                // background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url('../../images/all.jpg');
+
+                background-size: cover;
+            }
+        // }
 
         p {
             font-size: 26px;

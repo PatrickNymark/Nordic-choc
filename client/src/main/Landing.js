@@ -6,6 +6,13 @@ import Menu from '../common/Menu'
 import Logo from '../images/logo-light.png'
 import WorldGold from '../images/world-gold-no-bg.png';
 import ScandiGold from '../images/scandi-gold-no-bg.png';
+import Brown from '../images/ayoola.jpg';
+import Green from '../images/bergamot.jpg';
+import White from '../images/inland_ice.jpg';
+import Blue from '../images/bornholm2.jpg';
+import LandingContentBanner from '../images/front-deco-banner.svgl';
+
+import SVG from 'react-inlinesvg';
 
 
 class HomePage extends PureComponent {
@@ -46,8 +53,31 @@ class HomePage extends PureComponent {
                         <img src={ScandiGold} />
                     </div>
                 </div>
+                <div className="break"></div>
                 <div className="home-content">
-                    <p>Content</p>
+                    <div className="landing-content-banner">
+                        <SVG className="landing-banner" src={LandingContentBanner} />
+                    </div>
+                    <div className="landing-wrapper">
+                        <div className="landing-content">
+                            <div>
+                                <h1>CULINARY ADVENTURES OF THE COCOA NUT</h1>
+                                <h2>Icelandic water based Chocolate made by Nordic Chocolatiers</h2>
+                                <p>Morbi a orci faucibus, placerat velit aliquet, 
+                                sagittis mi. Quisque finibus risus non tempus blandit. Maecenas posuere eros ex, a
+                                 eleifend nibh tempor vitae. Aenean imperdiet est sed scelerisque fringilla. In blandit ipsum eu 
+                                 vestibulum rhoncus. Quisque dapibus ligula eget augue luctus tristique. Donec convallis sit amet odio in faucibus.</p>
+                            </div>
+                        </div>
+                        <div className="landing-image-collage">
+                            <img src={Brown} />
+                            <img src={Green} />
+                            <img src={Blue} />
+                            <img src={White} />
+
+
+                        </div>4
+                    </div>
                 </div>
             </div>
         )
