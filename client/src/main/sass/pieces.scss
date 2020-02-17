@@ -1,7 +1,7 @@
 .pieces-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 92.20px 100px;
 
 
     h1 {
@@ -36,12 +36,21 @@
 
         .pieces {
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            animation: 1s linear 0s 1 slideInFromBottom;
+            padding: 15px 0px;
+          //  animation: 1s linear 0s 1 slideInFromBottom;
 
             .piece-content {
-                flex: 60%;
+                width: 600px;
+                
+                h3 {
+                    font-weight: bold;
+                }
+
+                p {
+                    padding-top: 10px;
+                    
+                }
             }
         }
 
@@ -57,23 +66,25 @@
             max-width: 200px;
             flex: 40%;
             padding-right: 40px;
-
+            max-height: 134px;
+            overflow: hidden;
             img {
                 max-width: 100%;
+                
             }
         }
     }
 }
 
 
-@keyframes slideInFromBottom {
-    0% {
-        transform: translate(0%, 50%) scale(0.7);
-        opacity: 0;
-    }
+// @keyframes slideInFromBottom {
+//     0% {
+//         transform: translate(0%, 50%) scale(0.7);
+//         opacity: 0;
+//     }
     
-    100% {
-        transform: translate(0%, 0%) scale(1);
-        opacity: 1;
-    }
-}
+//     100% {
+//         transform: translate(0%, 0%) scale(1);
+//         opacity: 1;
+//     }
+// }
