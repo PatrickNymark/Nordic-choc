@@ -79,6 +79,16 @@
            right: 60px;
        }
     }
+
+    .about-content {
+        padding: 40px 50px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .about-content {
+        padding: 92.20px 100px;
+    }
 }
 
 @media only screen and (max-width: 414px) {

@@ -35,70 +35,72 @@ class Awards extends PureComponent {
                 </Helmet>
                 <Header />
                 <Banner background={AwardBanner} image={AwardImage} positionTop="50%" positionLeft="43%" />
-                <div className="awards-header">
-                    <div className="awards-header-title">
-                        <h1>The Awards</h1>
-                    </div>
+                <div className="awards-page">
+                    <div className="awards-header">
+                        <div className="awards-header-title">
+                            <h1>The Awards</h1>
+                        </div>
 
-                    <div className="awards-header-content">
-                        <p>Our chocolates have won numerous awards at national and international competitions. We have won for our individual
-                        chocolates, but have also won awards for our chocolate spread, inclusion and infusion bars and for our pålægschokolade.
-                        Bringing out the most wonderful aromas in the best ingredients, nature has to offer.
-                        Handcrafted artisanal chocolates with an attitude.</p>
-                    </div>
-                </div>
-                <div className="awards-content-wrapper">
-                    <div className="awards-content">
-                        <div className="awards-content-title">
-                            <h4>2019</h4>
-                        </div>
-                        <div className="awards-wrapper">
-                            <div className="award-wrapper">
-                                <div className="award-img">
-                                    <img src={GoldScandi2019} />
-                                </div>    
-                            </div>
-                            <div className="award-wrapper">
-                                <div className="award-img">
-                                    <img src={GoldScandi2019} />
-                                </div>    
-                            </div>
-                            <div className="award-wrapper">
-                                <div className="award-img">
-                                    <img src={GoldScandi2019} />
-                                </div>    
-                            </div>
-                            <div className="award-wrapper">
-                                <div className="award-img">
-                                    <img src={GoldScandi2019} />
-                                </div>    
-                            </div>
+                        <div className="awards-header-content">
+                            <p>Our chocolates have won numerous awards at national and international competitions. We have won for our individual
+                            chocolates, but have also won awards for our chocolate spread, inclusion and infusion bars and for our pålægschokolade.
+                            Bringing out the most wonderful aromas in the best ingredients, nature has to offer.
+                            Handcrafted artisanal chocolates with an attitude.</p>
                         </div>
                     </div>
-                    <div className="awards-content">
-                        <div className="awards-content-title">
-                            <h4>2018</h4>
+                    <div className="awards-content-wrapper">
+                        <div className="awards-content">
+                            <div className="awards-content-title">
+                                <h4>2019</h4>
+                            </div>
+                            <div className="awards-wrapper">
+                                <div className="award-wrapper">
+                                    <div className="award-img">
+                                        <img src={GoldScandi2019} />
+                                    </div>    
+                                </div>
+                                <div className="award-wrapper">
+                                    <div className="award-img">
+                                        <img src={GoldScandi2019} />
+                                    </div>    
+                                </div>
+                                <div className="award-wrapper">
+                                    <div className="award-img">
+                                        <img src={GoldScandi2019} />
+                                    </div>    
+                                </div>
+                                <div className="award-wrapper">
+                                    <div className="award-img">
+                                        <img src={GoldScandi2019} />
+                                    </div>    
+                                </div>
+                            </div>
                         </div>
-                        <div className="awards-wrapper">
-                            <div className="award-wrapper">
-                                <div className="award-img">
-                                    <img src={GoldScandi2019} />
-                                </div>    
+                        <div className="awards-content">
+                            <div className="awards-content-title">
+                                <h4>2018</h4>
                             </div>
-                            <div className="award-wrapper">
-                                <div className="award-img">
-                                    <img src={GoldScandi2019} />
-                                </div>    
-                            </div>
-                            <div className="award-wrapper">
-                                <div className="award-img">
-                                    <img src={GoldScandi2019} />
-                                </div>    
-                            </div>
-                            <div className="award-wrapper">
-                                <div className="award-img">
-                                    <img src={GoldScandi2019} />
-                                </div>    
+                            <div className="awards-wrapper">
+                                <div className="award-wrapper">
+                                    <div className="award-img">
+                                        <img src={GoldScandi2019} />
+                                    </div>    
+                                </div>
+                                <div className="award-wrapper">
+                                    <div className="award-img">
+                                        <img src={GoldScandi2019} />
+                                    </div>    
+                                </div>
+                                <div className="award-wrapper">
+                                    <div className="award-img">
+                                        <img src={GoldScandi2019} />
+                                    </div>    
+                                </div>
+                                <div className="award-wrapper">
+                                    <div className="award-img">
+                                        <img src={GoldScandi2019} />
+                                    </div>    
+                                </div>
                             </div>
                         </div>
                     </div>
