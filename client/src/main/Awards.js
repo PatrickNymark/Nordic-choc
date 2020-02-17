@@ -1,4 +1,5 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent } from 'react';
+import { Helmet } from "react-helmet";
 import { awardService } from './services/award.service';
 import './sass/awards.scss'
 import Header from '../common/Header'
@@ -28,6 +29,10 @@ class Awards extends PureComponent {
     render() {
         return (
             <div>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Nordic Chocolatiers - Awards</title>
+                </Helmet>
                 <Header />
                 <Banner background={AwardBanner} image={AwardImage} positionTop="50%" positionLeft="43%" />
                 <div className="awards-header">

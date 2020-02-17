@@ -1,4 +1,5 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent } from 'react';
+import { Helmet } from "react-helmet";
 import Header from '../common/Header'
 import Frederiksberg from '../images/frederiksberg-kirsebærvin.png';
 import Holm from '../images/friis-holm.png';
@@ -18,6 +19,10 @@ class Partnerships extends PureComponent {
     render() {
         return (
             <div>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Nordic Chocolatiers - Partnerships</title>
+                </Helmet>
                 <Header />
                 <Banner background={PartnerBanner} positionTop="50%" positionLeft="50%" />
                 <div className="partnerships-wrapper">

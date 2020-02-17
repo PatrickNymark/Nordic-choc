@@ -1,4 +1,5 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent } from 'react';
+import { Helmet } from "react-helmet";
 import axios from 'axios';
 import Header from '../common/Header';
 import Muscovado from '../images/muscovado-caramel.jpg'
@@ -25,6 +26,10 @@ class Pieces extends PureComponent {
     render() {
         return (
             <div>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Nordic Chocolatiers - Pieces</title>
+                </Helmet>
                 <Header />
                 <div className="pieces-wrapper">
                     <div className="pieces-title col">

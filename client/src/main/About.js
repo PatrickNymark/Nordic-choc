@@ -1,6 +1,5 @@
-import React, { PureComponent } from 'react'
-import Menu from '../common/Menu';
-import Logo from '../images/logo-dark.png'
+import React, { PureComponent } from 'react';
+import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
 import './sass/about.scss'
 import Header from '../common/Header';
@@ -19,6 +18,14 @@ class About extends PureComponent {
     render() {
         return (
             <div>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <meta name="title" content="Nordic Chocolatiers - Water based chocolate" />
+                    <meta name="description" content="Award-winning chocolatier Peter Svenningsen constantly strives for the ultimate chocolate experience. Seeking to promote
+                    and accentuate the divine nuances of good chocolate, he is innovative and uncompromising both in his selection of
+                    ingredients and in his craftsmanship." /> 
+                    <title>Nordic Chocolatiers - About</title>
+                </Helmet>
                 <Header />
                 <Banner background={AboutBanner} positionTop="50%" positionLeft="50%" />
                 <div className="about-content">

@@ -1,4 +1,5 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent } from 'react';
+import { Helmet } from "react-helmet";
 import Header from '../common/Header'
 import './sass/chocolates.scss';
 import Banner from '../common/Banner';
@@ -17,6 +18,10 @@ class Chocolate extends PureComponent {
     render() {
         return (
             <div>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Nordic Chocolatiers - The Chocolate</title>
+                </Helmet>
                 <Header />
                 <Banner background={ChocolateBanner} positionTop="50%" positionLeft="50%" />
                 <div className="chocolates-content">

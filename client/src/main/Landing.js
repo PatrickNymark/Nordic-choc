@@ -1,4 +1,5 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent } from 'react';
+import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
 import './sass/homepage.scss'
 import Menu from '../common/Menu'
@@ -16,6 +17,10 @@ class HomePage extends PureComponent {
     render() {
         return (
             <div className="home-wrapper">
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Nordic Chocolatiers - Award Winning Chocolate</title>
+                </Helmet>
                 <div className="home-background"></div>
                 <div className="home-header">
                     <div className="home-logo">
