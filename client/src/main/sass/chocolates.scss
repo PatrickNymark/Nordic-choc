@@ -24,5 +24,9 @@
 @media only screen and (max-width: 414px) {
     .chocolates-content {
         padding: 40px 30px;
+
+        .chocolate-content {
+            padding-top: 20px;
+        }
     }
 }

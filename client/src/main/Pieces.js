@@ -8,6 +8,8 @@ import Iceland from '../images/inland_ice.jpg'
 import Island from '../images/bornholm3.jpg'
 import './sass/pieces.scss'
 
+import $ from 'jquery';
+
 class Pieces extends PureComponent {
     constructor(props) {
         super(props)
@@ -24,7 +26,13 @@ class Pieces extends PureComponent {
                 pieces: pieces.data
             });
         });
+
+
+        
+
+
     }
+
 
     render() {
         return (
@@ -53,7 +61,10 @@ class Pieces extends PureComponent {
                             <div className="piece-logo"><img src={Muscovado}></img></div>
                             <div className="piece-content">
                                 <h3>Muscovado Caramel</h3>
-                                <p>Quisque id lacus nisl. Mauris et posuere erat. Aenean et sodales elit. Vivamus eget libero ornare, maximus lacus sit amet, cursus neque. Phasellus vel urna eget diam bibendum dignissim sed quis ante. Fusce maximus libero vel mi imperdiet, ornare convallis eros ornare. Pellentesque molestie risus at commodo volutpat. Proin pellentesque risus et leo mollis volutpat.</p>
+                                <div className="piece-content-text">
+                                    <p>Quisque id lacus nisl. Mauris et posuere erat. Aenean et sodales elit. Vivamus eget libero ornare, maximus lacus sit amet, cursus neque. Phasellus vel urna eget diam bibendum dignissim sed quis ante. Fusce maximus libero vel mi imperdiet, ornare convallis eros ornare. Pellentesque molestie risus at commodo volutpat. Proin pellentesque risus et leo mollis volutpat.</p>
+                                </div>
+                                <p>More &rarr;</p>
                             </div>
                         </div>
                         <div className="pieces">
