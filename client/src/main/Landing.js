@@ -10,7 +10,7 @@ import Brown from '../images/ayoola.jpg';
 import Green from '../images/bergamot.jpg';
 import White from '../images/inland_ice.jpg';
 import Blue from '../images/bornholm2.jpg';
-import LandingContentBanner from '../images/front-deco-banner.svgl';
+import LandingContentBanner from '../images/front-deco-banner.svg';
 
 import SVG from 'react-inlinesvg';
 
