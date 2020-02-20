@@ -5,10 +5,8 @@ import '../common/sass/animated-card.scss'
 import Favi from '../images/favicon3 copy.png';
 
 
-function AnimatedCard({ frontImage, backImage }) {
+function AnimatedCard({ frontImage, backImage, text, header, isText, background }) {
   const [flipped, set] = useState(false);
-
-  console.log(frontImage)
 
   const { transform, opacity } = useSpring({
     opacity: flipped ? 1 : 0,
@@ -22,15 +20,28 @@ function AnimatedCard({ frontImage, backImage }) {
     backgroundImage: `url(${frontImage})`
   };
 
-  const backStyles = {
-    opacity, 
-    transform: transform.interpolate(t => `${t} rotateX(180deg)`),
-    backgroundImage: `url(${backImage})`
+  let backStyles = {};
+
+  if(isText) {
+    backStyles = {
+      opacity, 
+      transform: transform.interpolate(t => `${t} rotateX(180deg)`),
+      background
+    }
+  } else {
+    backStyles = {
+      opacity, 
+      transform: transform.interpolate(t => `${t} rotateX(180deg)`),
+      backgroundImage: `url(${backImage})`
+    }
   }
+
+
+  
   return (
     <div onClick={() => set(state => !state)}>
-      <animated.div class="card back" style={frontStyles} />
-      <animated.div class="card front" style={backStyles} />
+      <animated.div class="card back" style={backStyles} />
+      <animated.div class="card front" style={frontStyles} />
     </div>
   )
 }
