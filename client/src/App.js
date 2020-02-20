@@ -7,6 +7,7 @@ import Chocolate from './main/Chocolate';
 import Partnerships from './main/Partnerships';
 import Login from './admin/Login';
 import Awards from './main/Awards'
+import Team from './main/Team';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/partnerships" component={Partnerships} />
         <Route exact path="/awards" component={Awards} />
         <Route exact path="/admin/user/login" component={Login} />
+        <Route exact path="/team" component={Team} />
     </Router>
   );
 }

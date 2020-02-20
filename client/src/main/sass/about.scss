@@ -59,7 +59,7 @@
 
             a {
                 color: #000;
-                text-decoration: none3;
+                text-decoration: none;
 
                 &:visited {
                     color: #000
@@ -69,9 +69,59 @@
             li {
                 padding-top: 5px;
                 font-size: 12px;
+                position: relative;
+                span {
+                    position: absolute;
+                    transform: translate(10px, 0px);
+                    transition: transform 0.3s ease-in;
+                }
+            }
+
+            li:hover {
+                span {
+                    transform: translate(15px, 0px);
+                }
+                
             }
         }
         
+    }
+}
+
+.philosophy-wrapper {
+    display: flex;
+    padding: 92.20px 100px;
+    justify-content: center;
+
+    .philosophy-content-video {
+        .video-overlay {
+            color: #fff;
+            position: absolute;
+            z-index: 10;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .philosophy-content-description {
+        width: 50%;
+        background: #1C1B1C;
+        max-width: 640px;
+        color: #fff;
+        position: relative;
+
+        .philosophy-description-content {
+            position: absolute;
+            top: 90px;
+            left: 30px;
+            padding-right: 30px;
+
+            p {
+                padding-top: 10px;
+            }
+        }
+     
     }
 }
 

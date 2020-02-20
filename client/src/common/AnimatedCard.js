@@ -36,8 +36,6 @@ function AnimatedCard({ frontImage, backImage, text, header, isText, background
     }
   }
 
-
-  
   return (
     <div onClick={() => set(state => !state)}>
       <animated.div class="card back" style={backStyles} />
