@@ -47,25 +47,7 @@ class About extends PureComponent {
                         </ul>
                     </div>
                 </div>
-                <div className="philosophy-wrapper">
-                    <div className="philosophy-content-video">
-                        {this.state.videoFinished && 
-                            <div className="video-overlay">
-                                Play
-                            </div>}
-                        <ReactPlayer onEnded={this.handleVideo} url='https://res.cloudinary.com/dw8noz36h/video/upload/v1582120088/Peter_Svenningsen_CHERRY_v19_Online_YT_Netmix_online-video-cutter.com_lhuqls.mp4' playing />
-                    </div>
-                    <div className="philosophy-content-description">
-                        <div className="philosophy-description-content">
-                            <h1>Philosophy</h1>
-                            <p>Holding on to the High-end, Old-world and the feel of starched damask cloth as a backdrop for a taste universe going its own
-                            new ways. One must want to put it in ones mouth (and everything that applies to what we do and how we will in the future!).
-                            No fillers, no bullshit, no gilded crumbs - maintain and refine the allegiance to the purest and best raw materials and the clean
-                            process in production. Razor-sharp on product, variants and flavour nuances. We don’t run after the herd. We do not cater for
-                            the broad taste.</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         )
     }

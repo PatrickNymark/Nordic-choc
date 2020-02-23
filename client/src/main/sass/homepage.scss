@@ -25,14 +25,14 @@
 
     .home-awards {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 85%;
+        left: 85%;
         transform: translate(-50%, -50%);
         display: flex;
         padding-top: 200px;
 
         .home-award {
-            width: 200px; 
+            width: 100px; 
             img {
                 max-width: 100%;
             }
