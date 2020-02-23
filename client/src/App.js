@@ -8,6 +8,7 @@ import Partnerships from './main/Partnerships';
 import Login from './admin/Login';
 import Awards from './main/Awards'
 import Team from './main/Team';
+import Publicity from './main/Publicity';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/awards" component={Awards} />
         <Route exact path="/admin/user/login" component={Login} />
         <Route exact path="/team" component={Team} />
+        <Route exact path="/publicity" component={Publicity} />
     </Router>
   );
 }

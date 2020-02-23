@@ -8,6 +8,8 @@ import Jakob from '../images/Jakob Ørstrup er bare én af de mange lokale madh
 import AnimatedCard from '../common/AnimatedCard.js';
 
 import { useSpring, animated } from 'react-spring'
+import InstagramFeed from './InstagramFeed';
+import Feed from './Feed';
 
 
 class Team extends PureComponent {
@@ -37,8 +39,7 @@ class Team extends PureComponent {
                     </div>
                 </div>
                 <div style={{ textAlign: 'center' }}>
-                    <h1>React Spring</h1>
-                    <AnimatedCard frontImage={Jakob} isText="true" background="#000" />
+                    
                 </div>
             </div>
         )

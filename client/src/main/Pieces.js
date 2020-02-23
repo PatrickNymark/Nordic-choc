@@ -9,6 +9,7 @@ import Island from '../images/bornholm3.jpg'
 import './sass/pieces.scss'
 
 import $ from 'jquery';
+import Feed from './Feed';
 
 class Pieces extends PureComponent {
     constructor(props) {
