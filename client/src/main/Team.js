@@ -3,7 +3,6 @@ import Header from '../common/Header'
 import './sass/team.scss'
 
 import Peter from '../images/images.jpeg';
-import Jakob from '../images/Jakob Ørstrup er bare én af de mange lokale madhåndværkere, der er med i Furesø Picnicfestival.jpg';
 
 import AnimatedCard from '../common/AnimatedCard.js';
 
