@@ -30,7 +30,6 @@ class Team extends PureComponent {
                     </div>
                     <div className="team-page-right">
                         <div className="image-wrapper">
-                            <img src={Jakob} />
                         </div>
 
                     </div>
