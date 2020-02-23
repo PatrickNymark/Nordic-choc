@@ -35,8 +35,7 @@ class Team extends PureComponent {
                     </div>
                 </div>
                 <div style={{ textAlign: 'center' }}>
-                    <h1>React Spring</h1>
-                    <AnimatedCard frontImage={Jakob} isText="true" background="#000" />
+                   
                 </div>
             </div>
         )
