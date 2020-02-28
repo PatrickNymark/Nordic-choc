@@ -46,7 +46,7 @@ class About extends PureComponent {
                         <p></p>
                         <ul>
                             <li><Link to="/team">The Team <span>&rarr;</span></Link></li>
-                            <li><Link to="/films">The Films <span>&rarr;</span></Link></li>
+                            
                         </ul>
                     </div>
                 </div>
