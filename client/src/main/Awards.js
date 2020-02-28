@@ -49,7 +49,7 @@ class Awards extends PureComponent {
                         </div>
                     </div>
                     <div className="awards-content-wrapper">
-                        <div className="awards-content">
+                        {/* <div className="awards-content">
                             <div className="awards-content-title">
                                 <h4>2019</h4>
                             </div>
@@ -102,7 +102,8 @@ class Awards extends PureComponent {
                                     </div>    
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+                        <img className="award-line-up" src="https://res.cloudinary.com/dw8noz36h/image/upload/v1582892412/award_line-up__2_lq0jyp.svg"  />
                     </div>
                 </div>
             </div>

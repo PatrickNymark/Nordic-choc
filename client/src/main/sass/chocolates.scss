@@ -11,8 +11,18 @@
 
     .chocolate-content {        
         p {
+            padding-top: 10px;
             font-size: 12px;
             line-height: 1.6rem;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+
+            &:visited {
+                color: #000
+            }
         }
     }
 

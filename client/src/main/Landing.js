@@ -36,16 +36,17 @@ class HomePage extends PureComponent {
                 <div className="home-headline">
                     <div>
                         <h1>SUBLIME OR BUST</h1>
+                        <img src="https://res.cloudinary.com/dw8noz36h/image/upload/v1582886282/chocolate_skull_xyhgru.svg" />
                     </div>
                 </div>
-                <div className="home-awards">
+                {/* <div className="home-awards">
                     <div className="home-award">
                         <img src={WorldGold} />
                     </div>
                     <div className="home-award">
                         <img src={ScandiGold} />
                     </div>
-                </div>
+                </div> */}
                 <div className="home-content">
                     <p>Content</p>
                 </div>

@@ -81,17 +81,22 @@
         //     animation-delay: 10s;
         // }
 
-        .piece-logo {
-            max-width: 200px;
+        .piece-image {
             flex: 40%;
             padding-right: 40px;
-            max-height: 134px;
-            overflow: hidden;
-            img {
-                max-width: 100%;
-                
+
+            .piece-logo {
+                min-width: 200px;
+                max-height: 200px;
+                overflow: hidden;
+                img {
+                    max-width: 100%;
+                    
+                }
             }
         }
+
+        
     }
 }
 

@@ -4,15 +4,29 @@
     flex-wrap: wrap;
 
     .team-page-left {
-        width: 50%
+        width: 50%;
+        position: relative;
     }
 
     .team-page-right {
         width: 50%;
+        position: relative;
     }
 
     .image-wrapper {
-        max-width: 400px;
+        min-width: 500px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        h1 {
+            padding-top: 30px;
+            font-size: 25px;
+        }
+
+        p {
+            padding-top: 10px;
+        }
 
         img {
             max-width: 100%;

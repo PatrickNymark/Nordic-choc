@@ -39,11 +39,14 @@ class About extends PureComponent {
                         <h1>About</h1>
                     </div>
                     <div className="content-pieces">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        <p>Holding on to the High-end, Old-world and the feel of starched damask cloth as a backdrop for a taste universe going its own new ways. One must want to put it in ones mouth (and everything that applies to what we do and how we will in the future!). No fillers, no bullshit, no gilded crumbs - maintain and refine the allegiance to the purest and best raw materials and the clean process in production. Razor-sharp on product, variants and flavour nuances. We don’t run after the herd. We do not cater for the broad taste.</p>
+                        <p>Sublime or bust.</p>
+                        <p>All ingredients are chosen in respect to nature and environment. Finding local, organic produce of the highest quality. Ensuring that all produce is of the best quality. Whenever possible, organic ingredients are chosen.
+                        Collaboration between producers is vital to producing high quality end products. We take great care to ensure that we only work with the best – the innovative seekers of perfection – who share our values and beliefs regarding quality, fair trade and sustainability.</p>
+                        <p>Combining Scandinavian simplicity and quality into a local and global product.</p>
                         <ul>
-                            <li><Link to="/philosophy">Philosophy <span>&rarr;</span></Link></li>
                             <li><Link to="/team">The Team <span>&rarr;</span></Link></li>
-                            <li><Link to="/philosophy">The Films <span>&rarr;</span></Link></li>
+                            <li><Link to="/films">The Films <span>&rarr;</span></Link></li>
                         </ul>
                     </div>
                 </div>
