@@ -19,11 +19,6 @@
     .awards-content-wrapper {
         position: relative;
 
-        img {
-            height: 2000px;
-            margin-top: -150px;
-        }
-
         .awards-content {
             padding-top: 35px;
 
@@ -62,6 +57,16 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .awards-content-wrapper {
+        img {
+            height: 2000px;
+            margin-top: -150px;
+        }
+
     }
 }
 

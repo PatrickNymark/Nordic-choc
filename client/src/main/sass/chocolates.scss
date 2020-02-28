@@ -24,6 +24,37 @@
                 color: #000
             }
         }
+
+        ul {
+            list-style-type: none;
+
+            a {
+                color: #000;
+                text-decoration: none;
+
+                &:visited {
+                    color: #000
+                }
+            }
+
+            li {
+                padding: 10px 0px;
+                font-size: 12px;
+                position: relative;
+                span {
+                    position: absolute;
+                    transform: translate(10px, 0px);
+                    transition: transform 0.3s ease-in;
+                }
+            }
+
+            li:hover {
+                span {
+                    transform: translate(15px, 0px);
+                }
+                
+            }
+        }
     }
 
     .col {

@@ -31,7 +31,9 @@ class Chocolate extends PureComponent {
                     </div>
                     <div className="chocolate-content col">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet lacus augue. Etiam sit amet tristique justo. Aenean scelerisque scelerisque ante, ac ultricies ligula consequat vitae. Morbi eget tincidunt odio. In eleifend commodo ligula. Etiam orci justo, viverra sodales rutrum a, dictum non magna. Pellentesque ullamcorper purus odio, in luctus nisi dictum sit amet. Integer sit amet velit quam. Mauris quis sapien consectetur, interdum mi nec, venenatis sem. Donec tincidunt interdum mauris, aliquam molestie massa euismod vitae. Praesent malesuada semper velit vel tristique. Maecenas et mauris accumsan, fermentum tortor sed, dapibus leo. Vivamus sagittis, diam eget semper accumsan, risus felis molestie odio, quis pulvinar tellus elit ac augue.</p>
-                        <Link to="/pieces"><p>The Pieces &rarr;</p></Link>     
+                        <ul>
+                            <li><Link to="/pieces">The Pieces <span>&rarr;</span></Link> </li>
+                        </ul>    
                     </div>
                 </div>
             </div>

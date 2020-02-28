@@ -82,11 +82,10 @@
         // }
 
         .piece-image {
-            flex: 40%;
             padding-right: 40px;
 
             .piece-logo {
-                min-width: 200px;
+                width: 200px;
                 max-height: 200px;
                 overflow: hidden;
                 img {
@@ -151,8 +150,8 @@
                     max-height: 200px;
                     overflow: hidden;
                     position: relative;
-                    left: 50%;
-                    transform: translate(-50%);
+                    // left: 50%;
+                    // transform: translate(-50%);
                     margin-bottom: 35px;
                     padding-right: 0px
                 }

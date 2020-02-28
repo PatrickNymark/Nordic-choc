@@ -40,10 +40,10 @@ class About extends PureComponent {
                     </div>
                     <div className="content-pieces">
                         <p>Holding on to the High-end, Old-world and the feel of starched damask cloth as a backdrop for a taste universe going its own new ways. One must want to put it in ones mouth (and everything that applies to what we do and how we will in the future!). No fillers, no bullshit, no gilded crumbs - maintain and refine the allegiance to the purest and best raw materials and the clean process in production. Razor-sharp on product, variants and flavour nuances. We don’t run after the herd. We do not cater for the broad taste.</p>
-                        <p>Sublime or bust.</p>
+                        <p className="content-pieces-bold">Sublime or bust.</p>
                         <p>All ingredients are chosen in respect to nature and environment. Finding local, organic produce of the highest quality. Ensuring that all produce is of the best quality. Whenever possible, organic ingredients are chosen.
-                        Collaboration between producers is vital to producing high quality end products. We take great care to ensure that we only work with the best – the innovative seekers of perfection – who share our values and beliefs regarding quality, fair trade and sustainability.</p>
-                        <p>Combining Scandinavian simplicity and quality into a local and global product.</p>
+                        Collaboration between producers is vital to producing high quality end products. We take great care to ensure that we only work with the best – the innovative seekers of perfection – who share our values and beliefs regarding quality, fair trade and sustainability. Combining Scandinavian simplicity and quality into a local and global product.</p>
+                        <p></p>
                         <ul>
                             <li><Link to="/team">The Team <span>&rarr;</span></Link></li>
                             <li><Link to="/films">The Films <span>&rarr;</span></Link></li>

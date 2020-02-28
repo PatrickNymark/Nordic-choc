@@ -47,9 +47,7 @@ class HomePage extends PureComponent {
                         <img src={ScandiGold} />
                     </div>
                 </div> */}
-                <div className="home-content">
-                    <p>Content</p>
-                </div>
+           
             </div>
         )
     }
