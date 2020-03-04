@@ -9,6 +9,7 @@ import Island from '../images/bornholm3.jpg'
 import './sass/pieces.scss'
 
 import $ from 'jquery';
+import Piece from './Piece';
 
 class Pieces extends PureComponent {
     constructor(props) {
@@ -26,11 +27,6 @@ class Pieces extends PureComponent {
                 pieces: pieces.data
             });
         });
-
-
-        
-
-
     }
 
 
@@ -75,6 +71,10 @@ class Pieces extends PureComponent {
                             <div className="piece-content">
                                 <h3>Olive Oil Bergamot</h3>
                                 <p>Creamy, intense dark ganache, smoothed with a dash of olive oil and lightly flavoured with bergamot. Water-based on 70% dark O’Payo from Friis-Holm. Infused with olive oil and organic bergamot.</p>
+                                <Piece>
+                                    <h1>Olive Oil Bergamont</h1>
+                                    <p>Creamy, intense dark ganache, smoothed with a dash of olive oil and lightly flavoured with bergamot. Water-based on 70% dark O’Payo from Friis-Holm. Infused with olive oil and organic bergamot.</p>
+                                </Piece>
                             </div>
                         </div>
                         <div className="pieces">
@@ -84,6 +84,58 @@ class Pieces extends PureComponent {
                             <div className="piece-content">
                                 <h3>Inland Ice</h3>
                                 <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                <Piece>
+                                    <h1>Inland Ice</h1>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+                                    <p>Smooth, cool and clean water ganache based on 70% dark O’payo from Friis-Holm and the purest crisp water from Greenland. A deceptively simple piece, where the water promotes and enhances the chocolate flavours while giving a cool, smooth texture to the ganache.</p>
+
+                                </Piece>
                             </div>
                         </div>
                         <div className="pieces">

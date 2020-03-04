@@ -10,7 +10,6 @@ import Awards from './main/Awards'
 import Team from './main/Team';
 
 
-
 function App() {
   return (
     <Router className="App">

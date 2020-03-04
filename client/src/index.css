@@ -15,6 +15,10 @@ p {
   line-height: 1.6rem;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 /* html {
     box-sizing: border-box;
   }
