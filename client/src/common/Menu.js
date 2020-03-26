@@ -57,7 +57,7 @@ class Menu extends PureComponent {
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/chocolate">Chocolates</Link></li>
                         <li><Link to="/pieces">Pieces</Link></li>
-                        <li><Link to="/partnerships">Patnerships</Link></li>
+                        <li><Link to="/partnerships">Partnerships</Link></li>
                         <li><Link to="/awards">Awards</Link></li>
                     </ul>
                 </div> 

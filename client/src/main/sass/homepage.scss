@@ -69,6 +69,109 @@
     }
 }
 
+.offer-wrapper {
+    min-height: 1200px; 
+    padding-bottom: 100px;
+    .image-wrapper {
+        display: flex;
+        width: 1152px;
+        transform: translateX(-50%);
+        position: relative;
+        left: 50%;
+        padding-top: 100px;
+        .left {
+            //width: 50%;
+
+            .image-one, .logo {
+                width: 550px;
+               // padding: 20px 0px;
+
+               #header {
+                   width: 550px;
+               }
+
+               #logo {
+                   width: 200px;
+                   transform: translateX(-50%);
+                   position: relative;
+                   left: 50%;
+                   padding-top: 60px;
+               }
+        
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+        .right {
+           // width: 50%;
+
+            .logo-collage {
+            //     display: flex;                    
+            //     flex-wrap: wrap;                    
+            //    // justify-content: space-around;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            max-width: 600px;
+                
+                .image {
+                  //  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+                    max-height: 200px;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+ 
+    .offer-content {
+        max-width: 1000px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 20px;
+
+        .piece-btn, .piece-btn:visited, .piece-btn:hover {
+            font-weight: bold;
+            text-decoration: none;
+            color: #000;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 2.1rem;
+            padding-top: 20px;
+
+            span {
+                font-weight: bold;
+                padding-right: 40px;
+                padding-left: 4px;
+            }
+        }
+    }
+}
+
+// .frontpage-offer-wrapper {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+
+
+//     .offer-grid {
+//         -ms-text-align-last: 50%;
+
+//         .offer-image-one {
+//             max-width: 100%;
+
+//             .img {
+//                 max-width: 100%;
+//             }
+//         }
+//     }
+// }
+
 @media only screen and (max-width: 1024px) {
     .home-wrapper {
         .home-header {
@@ -105,6 +208,19 @@
             
             .home-award {
                 width: 100px;
+            }
+        }
+
+        .image-wrapper {
+            display: none;
+        }
+
+        .offer-content {
+            padding: 20px;
+            
+            p {
+                font-size: 12px;
+
             }
         }
     }

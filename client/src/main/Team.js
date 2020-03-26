@@ -14,9 +14,21 @@ class Team extends PureComponent {
         super(props)
 
         this.state = {
-            
+            imgSrc: "https://res.cloudinary.com/dw8noz36h/image/upload/v1585252007/jakobA_gnprbi.jpg"
         }
     }
+
+    handleMouseOver = () => {
+        this.setState({
+          imgSrc: 'https://res.cloudinary.com/dw8noz36h/image/upload/v1585252007/jakobB_rahszp.jpg'
+        });
+      }
+    
+      handleMouseOut = () => {
+        this.setState({
+          imgSrc: 'https://res.cloudinary.com/dw8noz36h/image/upload/v1585252007/jakobA_gnprbi.jpg'
+        });
+      }
 
     render() {
         return (
@@ -36,7 +48,7 @@ class Team extends PureComponent {
                     </div>
                     <div className="team-page-right">
                         <div className="image-wrapper">
-                            <img src="https://res.cloudinary.com/dw8noz36h/image/upload/v1582884462/jakob_rx8dnn.jpg" />
+                            <img onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgSrc} />
                             <div className="team-content">
                                 <h1>JAKOB ØRSTRUP - FOODIE, ARTISAN & CULINARY INNOVATO</h1>
                                 <p>With his uncompromising approach, Jakob always seeks to unleash the full flavour potential of any of the carefully selected ingredients he works with. An insatiable gastronomic curiosity and fearless play with food characterizes Jacob, and he is not afraid to break with traditional cuisines and conventions in the art of cooking. An approach to gastronomy that more than once has led Jakob into the role of respected adviser to well-known chefs and renowned food companies.</p>

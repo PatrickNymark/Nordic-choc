@@ -101,7 +101,7 @@ class Pieces extends PureComponent {
                             </div>
                             <div className="piece-content">
                                 <h3>Island Water</h3>
-                                <p>Pure water ganache based on water from an old source on the island of Bornholm in Denmark. The water ganache is made with XXXXX chocolate from YYYYYY and the shell is ZZZZZZZ.</p>
+                                <p>Pure water ganache based on water from an old source on the island of Bornholm in Denmark. The water ganache is made with O'Payo organic chocolate from Friis-Holm.</p>
                             </div>
                         </div>
                         <div className="pieces">
@@ -115,7 +115,7 @@ class Pieces extends PureComponent {
                         </div>
                         <div className="pieces">
                             <div className="piece-image">
-                                <div className="piece-logo"><img src={Island}></img></div>
+                                <div className="piece-logo"><img src="https://res.cloudinary.com/dw8noz36h/image/upload/v1585252007/blackberry_qtt3mv.jpg"></img></div>
                             </div>
                             <div className="piece-content">
                                 <h3>Blackberry Tarragon</h3>
@@ -124,7 +124,7 @@ class Pieces extends PureComponent {
                         </div>
                         <div className="pieces">
                             <div className="piece-image">
-                                <div className="piece-logo"><img src="https://res.cloudinary.com/dw8noz36h/image/upload/v1582883124/soumak_kihcuj.jpg"></img></div>
+                                <div className="piece-logo"><img src="https://res.cloudinary.com/dw8noz36h/image/upload/v1585252007/soumak_p6slns.jpg"></img></div>
                             </div>
                             <div className="piece-content">
                                 <h3>Sumac Almond crunch</h3>
@@ -151,7 +151,7 @@ class Pieces extends PureComponent {
                         </div>
                         <div className="pieces">
                             <div className="piece-image">
-                                <div className="piece-logo"><img src={Island}></img></div>
+                                <div className="piece-logo"><img src="https://res.cloudinary.com/dw8noz36h/image/upload/v1585252007/apple_1_iwfy7x.jpg"></img></div>
                             </div>
                             <div className="piece-content">
                                 <h3>Apple Infusion</h3>
