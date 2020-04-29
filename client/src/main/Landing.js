@@ -39,7 +39,7 @@ class HomePage extends PureComponent {
                         <img src="https://res.cloudinary.com/dw8noz36h/image/upload/v1582886282/chocolate_skull_xyhgru.svg" />
                     </div>
                 </div>
-                <div style={{ minHeight: '500px'}}>
+                {/*<div style={{ minHeight: '500px'}}>
                     <div className="offer-wrapper">
                         <div className="image-wrapper">
                             <div className="left">
