@@ -55,13 +55,12 @@
            position: absolute;
            top: 80px;
            left: 100px;
-           width: 100%;
        }
     }
 
     .home-content {
         min-height: 500px;
-
+        
         p {
             font-size: 26px;
             text-align: center
@@ -171,6 +170,97 @@
 //         }
 //     }
 // }
+
+.mors-dag-wrapper {
+    padding: 50px;
+    background: #FBFBF9;
+
+    .mors-dag-content {
+        display: flex;
+        flex-wrap: wrap;
+
+        .mors-dag-image {
+            flex: 40%;
+            padding: 20px;
+            .image {
+
+                img {
+                    max-height: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+        
+        .mors-dag-text {
+            flex: 40%;
+            padding: 20px;
+            h1 {
+                line-height: 50px;
+            }
+            p {
+                font-size: 16px;
+                padding-top: 20px;
+            }
+
+            .mors-dag-items {
+                padding: 0px;
+                list-style: none;
+
+                .item {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .mors-dag-wrapper {
+        .mors-dag-content {
+            .mors-dag-text {
+                h1 {
+                    line-height: 22px;
+                    font-size: 14px;
+                }
+                p {
+                    font-size: 12px;
+                    padding-top: 20px;
+                }
+
+                .mors-dag-items {
+                    .item {
+                        padding-top: 10px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .mors-dag-wrapper {
+        .mors-dag-content {
+            .mors-dag-text {
+                h1 {
+                    line-height: 30px;
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 14px;
+                    padding-top: 20px;
+                }
+
+                .mors-dag-items {
+                    .item {
+                        padding-top: 10px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media only screen and (max-width: 1024px) {
     .home-wrapper {
