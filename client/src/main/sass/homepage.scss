@@ -171,48 +171,6 @@
 //     }
 // }
 
-.mors-dag-wrapper {
-    padding: 50px;
-    background: #FBFBF9;
-
-    .mors-dag-content {
-        display: flex;
-        flex-wrap: wrap;
-
-        .mors-dag-image {
-            flex: 40%;
-            padding: 20px;
-            .image {
-
-                img {
-                    max-height: 100%;
-                    max-width: 100%;
-                }
-            }
-        }
-        
-        .mors-dag-text {
-            flex: 40%;
-            padding: 20px;
-            h1 {
-                line-height: 50px;
-            }
-            p {
-                font-size: 16px;
-                padding-top: 20px;
-            }
-
-            .mors-dag-items {
-                padding: 0px;
-                list-style: none;
-
-                .item {
-                    padding-top: 10px;
-                }
-            }
-        }
-    }
-}
 
 @media only screen and (max-width: 414px) {
     .mors-dag-wrapper {

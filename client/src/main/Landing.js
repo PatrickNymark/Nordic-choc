@@ -104,29 +104,7 @@ class HomePage extends PureComponent {
                     <div className="home-award">
                         <img src={ScandiGold} />
                     </div>
-                </div> */}
-                <div className="mors-dag-wrapper">
-                    <div className="mors-dag-content">
-                        <div className="mors-dag-image">
-                            <div className="image">
-                                <img src="https://res.cloudinary.com/dw8noz36h/image/upload/v1588713280/mors_dag_1280x680_gqj4sb.jpg" />                    
-                            </div>
-                        </div>
-                        <div className="mors-dag-text">
-                            <h1>Forkæl din mor med chokolade fra Nordic Chocolatiers. Vi har sammensat en flot æske med 15 stykker chokolade.</h1>
-                            <ul className="mors-dag-items">
-                                <li className="item">3 blueberry</li>
-                                <li className="item">3 blackberry</li>
-                                <li className="item">3 muscovado caramel</li>
-                                <li className="item">3 cherry infusion</li>
-                                <li className="item">3 rhubarb</li>
-                            </ul>
-                            <p>Mors dags pris 200 for æsken. Kan hentes i Kirke Værløse eller bestilles hos Origreen <a target="_blank" href="http://origreen.dk">her</a>.</p>
-                        </div>
-                   
-                    </div>
-                </div>
-                
+                </div> */}                
             </div>
         )
     }
